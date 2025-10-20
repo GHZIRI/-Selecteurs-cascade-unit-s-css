@@ -1,0 +1,90 @@
+:root {
+  --primary-color: #3b9bc4;
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --light-color: #f4f9fd;
+  --dark-color: #2c3e50;
+  --text-color: #333;
+
+}
+body{
+  color: var(--dark-color);
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--light-color);
+}
+header{
+  background: var(--primary-color);
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: var(--light-color);
+  font-size: 15px;
+}
+h2{
+  font-size: 30px;
+}
+p{
+  text-align: justify;
+  padding: 40px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+  padding: 20px;
+}
+.Contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px var(--primary-color) solid;
+  margin-bottom: 10px
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px var(--primary-color) solid;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px var(--primary-color) solid;
+  margin-bottom: 10px;
+}
+.table ,tr , th , td{
+  border: 1px solid var(--dark-color);
+  border-collapse: collapse;
+  width: 500px;
+  height: 50px;
+}
+.Hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px var(--primary-color) solid;
+  margin-bottom: 10px;
+}
+.Hobbies:hover
+{
+color: var(--primary-color);
+background-color: #333;
+}
+.about:hover{
+  color: var(--light-color);
+  background-color: #333;
+}
+.skills:hover{
+  color: var(--primary-color);
+  background-color:#333;
+
+}
+.Contact:hover{
+  color: var(--primary-color);
+  background-color: #333;
+}
+
